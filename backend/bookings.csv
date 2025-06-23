@@ -1,0 +1,5 @@
+"trainName","trainId","seatNumber","bookedBy","bookedAt"
+"chennai express","123456",1,"Prakash","2025-06-23T10:20:40.700Z"
+"chennai express","123456",2,"Prakash","2025-06-23T10:20:40.739Z"
+"chennai express","123456",3,"Prakash","2025-06-23T10:20:40.761Z"
+"chennai express","123456",4,"Prakash","2025-06-23T10:20:40.795Z"

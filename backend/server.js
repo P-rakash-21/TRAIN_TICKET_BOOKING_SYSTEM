@@ -9,6 +9,8 @@ const app = express();
 // ✅ CORS: Allow requests from your Vercel frontend
 app.use(cors({
   origin: 'https://train-ticket-booking-system-tan.vercel.app',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
 }));
 app.use(express.json());

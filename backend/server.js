@@ -6,7 +6,11 @@ const dotenv = require('dotenv');
 dotenv.config(); // Load .env variables
 
 const app = express();
-app.use(cors());
+// ✅ CORS: Allow requests from your Vercel frontend
+app.use(cors({
+  origin: 'https://train-ticket-booking-system-tan.vercel.app',
+  credentials: true
+}));
 app.use(express.json());
 
 // Connect to MongoDB using .env variable
